@@ -13,13 +13,13 @@ Through the project, hands-on experience was gained with HTML, CSS variables, fl
 3. View the application on different devices (desktop, tablet, and mobile) to experience the responsive design.
 
 Desktop View:
-![Desktop View](image.png)
+![Desktop View](image2.png)
 
 Tablet View:
-![Tablet View](image-1.png)
+![Tablet View](image1.png)
 
 Mobile View:
-![Moblie View](image-2.png)
+![Mobile View](image.png)
 
 ## License
 
