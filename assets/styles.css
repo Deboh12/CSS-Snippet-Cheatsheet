@@ -1,0 +1,134 @@
+html {
+    background-color: var(--gray)
+}
+
+:root {
+    --purple: rgb(235, 143, 231);
+    --font: Arial, Helvetica, sans-serif;
+    --white: rgb(254, 250, 250);
+    --gray: rgb(2, 20, 49);
+    --text: 18px;
+    
+}
+
+.page-title {
+    color: var(--purple);
+    font-family: var(--font);
+    text-align: center;
+    font-size: 50px;
+
+}
+
+header p {
+    color: var(--white);
+    text-align: center;
+    font-size: var(--text);
+    margin: 0 100px 30px 100px;
+    font-family: var(--font);
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+
+
+.card-column {
+    border: 2px dotted var(--white);
+    width: 400px;
+    margin: 1%;
+    height: 300px;
+   
+
+}
+
+
+
+.code-block {
+    background: linear-gradient(rgba(129, 201, 249, 0.3), rgba(243, 118, 247, 0.6));
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 375px;
+    position:relative;
+    bottom: 80px;
+    right: 27px;
+    font-size: 120%;
+    color: var(--white);
+    user-select: all;
+}
+
+.card-header {
+    border: 2px solid var(--white);
+    border-radius: 8px;
+    text-align: center;
+    position: relative;
+    bottom: 50px;
+    background-color: var(--gray);
+    color: var(--purple);
+    font-size: 35px;
+    font-family: var(--font);
+
+}
+
+.card-column .card-header {
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+}
+
+.card-column:hover,
+.card-column:hover .card-header {
+    box-shadow: inset 0px 0px 8px
+    rgb(213, 42, 219), 0 0 100px
+    rgb(235, 102, 215);
+}
+                    
+
+.card-body {
+    font-size: var(--text);
+    color: var(--purple);
+    position: relative;
+    bottom: 70px;
+    text-align: center;
+    font-family: var(--font);
+    
+}
+
+#frow {
+    height: 200px;
+    
+}
+
+#fcolumn {
+    height: 200px;
+}
+
+#fgrid {
+    height: 160px;
+    font-size: 110%;
+}
+
+#fgradient {
+    height: 195px;
+}
+
+#ftitle {
+    height: 140px
+}
+
+#fglow {
+    font-size: 85%;
+    height: 160px
+}
+
+
+footer {
+    color: var(--purple);
+    font-size: 200%;
+    text-align: center;
+    font-family: var(--font)
+
+}
