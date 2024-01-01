@@ -1,5 +1,8 @@
 # CSS-Snippet-Cheatsheet
 
+## Link to Deployed Application
+https://deboh12.github.io/CSS-Snippet-Cheatsheet/
+
 ## Description
 The CSS-Snippet-Cheatsheet is a user-friendly web app serving as a knowledge base for CSS snippets. Motivated by the need for a quick CSS reference, it offers a visually appealing and responsive platform. The project goes beyond a typical assignment, aiming to be a practical tool for developers, especially those learning CSS.
 
